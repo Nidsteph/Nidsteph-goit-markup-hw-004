@@ -503,7 +503,10 @@ h1.page-heading {
 /*BACKGROUND OF THE TITLE*/
 .hero {
     padding: 200px 0;
+    background-image: url("/images/background-image.jpg");
     background-color: #2f303a;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-container {

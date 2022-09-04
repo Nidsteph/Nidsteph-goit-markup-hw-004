@@ -414,6 +414,7 @@ li.nav-item:not(:last-child) {
     margin-right: 50px;
 }
 
+
 /*logo*/
 a.logo {
     font-style: normal;
@@ -464,6 +465,31 @@ a.logo {
     color: #2196F3;
 }
 
+.icon-contact {
+    display: flex;
+
+
+}
+
+/*icons of the first list of goals */
+
+.icon-goals {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.icon-goal-item {
+    background: #F5F4FA;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+
+}
+
+li.icon-goal-item:not(:last-child) {
+    padding-right: 20px;
+}
 
 
 /* page heading */
@@ -508,7 +534,6 @@ h1.page-heading {
     background-image: linear-gradient(to right, transparent, rgba(47, 48, 58, 0.4)), url("/images/background-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1600px;
 }
 
 .hero-container {
@@ -589,7 +614,7 @@ li.what-we-do-items:not(:last-child) {
     justify-content: center;
 }
 
-.our-team-item:not(:last-child) {
+li.our-team-item:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -625,6 +650,38 @@ p.team-position {
     color: #757575;
 }
 
+.social-media {
+    display: flex;
+
+}
+
+.highlight {
+    fill: #2196F3;
+}
+
+/* regular customers */
+
+
+.reg-customer-items {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    justify-content: center;
+
+}
+
+li.reg-customer-items:not(:last-child) {
+    padding-right: 30px;
+}
+
+.regc-icon {
+    display: flex;
+
+}
 
 /* footer */
 
@@ -648,6 +705,7 @@ a.contact-info-footer {
     padding: 60px 0;
 }
 
+.buttons-social-media {}
 
 
 
@@ -784,7 +842,8 @@ a.contact-info-footer:focus {
 }
 
 .logo-portfolio-footer {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 10px;
 }
 
@@ -792,6 +851,20 @@ li.info-footer:not(:last-child) {
     padding: 0px 0px 4px 0px;
 }
 
+.buttons-footer {
+    display: flex;
+}
+
+.find-us {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 
 /*ALL IMAGES */
 

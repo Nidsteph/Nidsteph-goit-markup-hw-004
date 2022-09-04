@@ -699,9 +699,20 @@ li.reg-customer-items:not(:last-child) {
     padding-right: 30px;
 }
 
-.regc-icon {
+.reg-customer-items:hover {
+    border: 1px solid #2196F3;
+    cursor: pointer;
+}
+
+.regc-icon: {
     display: flex;
 
+
+}
+
+.regc-icon:hover {
+    fill: #2196F3;
+    cursor: pointer;
 }
 
 /* footer */

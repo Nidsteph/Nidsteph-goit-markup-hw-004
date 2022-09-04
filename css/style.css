@@ -699,21 +699,18 @@ li.reg-customer-items:not(:last-child) {
     padding-right: 30px;
 }
 
-.reg-customer-items:hover {
+.reg-customer-items:hover,
+.regc-icon:hover {
     border: 1px solid #2196F3;
     cursor: pointer;
+    fill: #2196F3;
 }
 
 .regc-icon: {
     display: flex;
-
-
 }
 
-.regc-icon:hover {
-    fill: #2196F3;
-    cursor: pointer;
-}
+
 
 /* footer */
 

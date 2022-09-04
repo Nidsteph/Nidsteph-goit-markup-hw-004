@@ -467,8 +467,13 @@ a.logo {
 
 .icon-contact {
     display: flex;
+    margin-top: 32px;
+}
 
-
+.icon-contact:hover,
+.icon-contact:focus {
+    fill: #2196F3;
+    cursor: pointer;
 }
 
 /*icons of the first list of goals */
@@ -531,7 +536,8 @@ h1.page-heading {
 .hero {
     padding: 200px 0;
     background-color: #2f303a;
-    background-image: linear-gradient(to right, transparent, rgba(47, 48, 58, 0.4)), url("/images/background-image.jpg");
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)), url("/images/background-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -650,9 +656,24 @@ p.team-position {
     color: #757575;
 }
 
+.icon-social-media {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 10px;
+    fill: #AFB1B8;
+}
+
+.icon-social-media:hover {
+    fill: #FFFFFF;
+}
+
+
+
+
 .social-media {
     display: flex;
-
 }
 
 .highlight {
@@ -705,8 +726,24 @@ a.contact-info-footer {
     padding: 60px 0;
 }
 
-.buttons-social-media {}
 
+.social-media-footer {
+    display: flex;
+
+}
+
+.social-media {
+    fill: #FFFFFF;
+}
+
+.social-media-list:hover {
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    width: 44px;
+    background-color: #2196F3;
+    border-radius: 50%;
+}
 
 
 /* PORTFOLIO PAGE */
@@ -746,7 +783,8 @@ ul.contact-info {
 
 }
 
-.list-of-buttons:hover {
+.list-of-buttons:hover,
+.list-of-buttons:focus {
     background-color: #2196F3;
     color: #FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
@@ -792,6 +830,11 @@ li.filter-item:not(:last-child) {
 .project-item {
     margin-top: 30px;
     margin-left: 30px;
+}
+
+.project-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
 }
 
 /* Text under images */
@@ -851,9 +894,6 @@ li.info-footer:not(:last-child) {
     padding: 0px 0px 4px 0px;
 }
 
-.buttons-footer {
-    display: flex;
-}
 
 .find-us {
     font-family: 'Roboto';
@@ -864,6 +904,7 @@ li.info-footer:not(:last-child) {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    display: block;
 }
 
 /*ALL IMAGES */

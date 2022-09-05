@@ -685,8 +685,18 @@ p.team-position {
     margin-top: 16px;
 }
 
-.social-media-link {}
+.social-media-link:hover {
+    height: 44px;
+    width: 44px;
+    background-color: #2196F3;
+    border-radius: 50%;
+}
 
+.social-media-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
 
 /* regular customers */
 
@@ -710,7 +720,7 @@ li.reg-customer-items:not(:last-child) {
     margin-right: 30px;
 }
 
-.regc-icon: {
+.regc-icon:hover {
     display: flex;
     fill: currentcolor;
 }
@@ -739,28 +749,16 @@ a.contact-info-footer {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer {
-    background-color: #2f303a;
-    padding: 60px 0;
-}
 
 
 .social-media-footer {
     display: flex;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .social-media {
     fill: #FFFFFF;
-}
-
-.social-media-list:hover {
-    display: flex;
-    justify-content: center;
-    height: 44px;
-    width: 44px;
-    background-color: #2196F3;
-    border-radius: 50%;
 }
 
 
@@ -888,6 +886,13 @@ p.headings-text {
 }
 
 /* footer */
+
+.footer {
+    display: flex;
+    background-color: #2f303a;
+    padding: 60px 0;
+}
+
 a.map {
     font-style: normal;
     line-height: 24px;

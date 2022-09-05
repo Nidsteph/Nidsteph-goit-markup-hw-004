@@ -525,7 +525,7 @@ h1.page-heading {
     padding: 200px 0;
     background-color: #2f303a;
     background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)), url("/images/background-image.jpg");
+            rgba(47, 48, 58, 0.4)), url("./images/background-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -658,45 +658,12 @@ p.team-position {
     color: #757575;
 }
 
-.social-icons-w {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.icon-social-media {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    fill: #AFB1B8;
-}
-
-.icon-social-media:hover {
-    fill: #FFFFFF;
-}
 
 
 /* new from down here for the social icons */
 
-.socials {
-    display: flex;
-    justify-content: space-evenly;
-    justify-items: center;
-    margin-top: 16px;
-}
 
-.social-media-link:hover {
-    height: 44px;
-    width: 44px;
-    background-color: #2196F3;
-    border-radius: 50%;
-}
 
-.social-media-list {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
 
 /* regular customers */
 
@@ -720,10 +687,6 @@ li.reg-customer-items:not(:last-child) {
     margin-right: 30px;
 }
 
-.regc-icon:hover {
-    display: flex;
-    fill: currentcolor;
-}
 
 .reg-customer-items:hover,
 .reg-customer-items:focus {
@@ -750,15 +713,42 @@ a.contact-info-footer {
 }
 
 
+/* social media footer icons / UL class */
 
-.social-media-footer {
+
+/*LIST class of social media icons */
+
+.socials {
+    margin-top: 16px;
+}
+
+/*UL list of the OUR teams icon */
+.socialmedia-list {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.social-media {
-    fill: #FFFFFF;
+/* actual LI of the socials of the OUR teams icon */
+
+.circle-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* svg */
+.icon-social-media {
+    fill: #AFB1B8;
+}
+
+.circle-social:hover,
+.icon-social-media:hover {
+    background-color: #2196F3;
+    fill: white;
 }
 
 
@@ -893,6 +883,12 @@ p.headings-text {
     padding: 60px 0;
 }
 
+.social-media-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 a.map {
     font-style: normal;
     line-height: 24px;
@@ -932,8 +928,29 @@ li.info-footer:not(:last-child) {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    display: block;
+
 }
+
+.social-media-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+
+.social-media-list:hover {
+    background-color: #2196F3;
+
+}
+
+.social-media {
+    fill: white;
+}
+
+
 
 /*ALL IMAGES */
 

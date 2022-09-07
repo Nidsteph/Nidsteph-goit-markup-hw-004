@@ -729,28 +729,11 @@ a.contact-info-footer {
     align-items: center;
 }
 
-/* actual LI of the socials of the OUR teams icon */
-
-.circle-social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-}
 
 /* svg */
 .icon-social-media {
-    fill: #AFB1B8;
+    fill: currentColor;
 }
-
-.circle-social:hover,
-.icon-social-media:hover {
-    background-color: #2196F3;
-    fill: white;
-}
-
 
 /* PORTFOLIO PAGE */
 
@@ -885,9 +868,45 @@ p.headings-text {
 
 .social-media-footer {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
+
+.socialmedia-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 44px;
+    color: #AFB1B8;
+    border-radius: 50%;
+}
+
+.socialmedia-link:hover,
+.socialmedia-link:focus {
+    background-color: #2196F3;
+    color: white;
+}
+
+.social-footer-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 44px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-footer-link:hover,
+.social-footer-link:focus {
+    background-color: #2196F3;
+}
+
+.footer-container {
+    display: flex;
+}
+
 
 a.map {
     font-style: normal;
@@ -927,27 +946,25 @@ li.info-footer:not(:last-child) {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
     color: #FFFFFF;
+    padding-top: 10px;
+    margin-bottom: 20px;
 
 }
 
-.social-media-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-
+.find-us-footer {
+    margin-left: 70px;
 }
 
-.social-media-list:hover {
-    background-color: #2196F3;
-
+.social-media-list:not(:last-child) {
+    margin-right: 10px
 }
+
+
 
 .social-media {
-    fill: white;
+    fill: currentColor;
 }
 
 
